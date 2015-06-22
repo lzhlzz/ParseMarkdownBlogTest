@@ -3,11 +3,11 @@
 作者：[馒头华华]()
 
 ## 入门教程
-* [关于](#Readme)
+* [关于](#README.md)
 * [简介和安装](#posts/test.md)
 
 ## 进阶教程
-* [入门](#docs/intro)
+* [简介和安装](#posts/test.md)
 
 ## 高级教程
-* [入门](#docs/intro)
+* [简介和安装](#posts/test.md)
