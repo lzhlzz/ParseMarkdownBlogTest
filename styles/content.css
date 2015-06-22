@@ -6,7 +6,7 @@
   padding-bottom: 10px;
   background-color: white;
   padding: 30px; 
-  
+
   counter-reset: section; 
 
   width: 900px;
@@ -256,6 +256,8 @@ code, tt {
   border-radius: 3px; }
  
 pre code {
+  font-family: Consolas;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   white-space: pre;

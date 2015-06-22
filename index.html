@@ -12,19 +12,31 @@
     <link rel="stylesheet" href="./js/highlight/styles/monokai_sublime.css" />
     <link rel="stylesheet" href="./styles/sidebar.css" />
     <link rel="stylesheet" href="./styles/content.css" />
+    <link rel="stylesheet" href="./styles/rightbar.css" />
 
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
 
 <div id="sidebar"></div>
+<div id="disqus_thread">fds</div>
 <div id="content"></div>
-
 
 <script>
 
 simbook.execute();
+
+var disqus_shortname = 'd3tutorial';
+    
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+
 
 </script>
 
