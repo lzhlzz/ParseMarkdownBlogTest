@@ -1,8 +1,8 @@
 var simbook = {
     content_id: "#content",
     sidebar_id: "#sidebar",
-    siderbar_file: "TOC.md",
-    content_file: "Readme.md"
+    siderbar_file: "./TOC.md",
+    content_file: "./Readme.md"
 };
 
 simbook.execute = function(){
