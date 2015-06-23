@@ -1,3 +1,21 @@
+#maincontent {
+  width: 900px;
+  height: 100%;
+  float: left;
+  padding-left:330px;
+}
+
+#disqus_thread {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; 
+  counter-reset: section; 
+  width: 900px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 #content {
   font-family: Helvetica, arial, sans-serif;
   font-size: 14px;
@@ -10,7 +28,6 @@
   counter-reset: section; 
 
   width: 900px;
-  padding-left:330px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -39,7 +56,6 @@
   position: relative; }
  
 #content h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
   text-decoration: none; }
  
 #content h1 tt, h1 code {
